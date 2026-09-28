@@ -1,6 +1,6 @@
 # InvoiceScan
 
-InvoiceScan is a Python notebook that reads an invoice PDF with OCR and asks Google Gemini to organize the recognized text into invoice fields and line items. It can reduce manual data entry, but its results are not guaranteed to be correct and should be checked against the invoice.
+InvoiceScan is a pipeline that reads an invoice PDF with OCR and asks Google Gemini to organize the recognized text into invoice fields and line items. It can reduce manual data entry, but its results are not guaranteed to be correct and should be checked against the invoice.
 
 ## Input
 
