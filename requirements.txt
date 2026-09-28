@@ -1,0 +1,10 @@
+easyocr
+google-genai
+PyMuPDF
+opencv-python
+numpy
+matplotlib
+Pillow
+nltk
+pydantic
+ipykernel

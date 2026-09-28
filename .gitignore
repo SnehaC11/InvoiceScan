@@ -1,0 +1,8 @@
+# Ignore all workspace files by default.
+*
+# Keep only the files intended for GitHub.
+!/.gitignore
+!/InvoiceScan.ipynb
+!/README.md
+!/requirements.txt
+!/input_invoice_redacted.png
