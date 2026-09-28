@@ -48,6 +48,17 @@ This shortened, redacted excerpt shows the kind of JSON returned for the local s
 
 The example is illustrative and contains redactions. The model can return incorrect values; review the complete response before using it.
 
+## Model Accuracy
+
+| Metric | Accuracy | Notes |
+|---|---:|---|
+| Main invoice metadata | 12/12 matched | Invoice number, invoice date, buyer, seller, GSTIN, and totals were correctly extracted |
+| Item descriptions detected | 7/7 matched | All visible item names were identified |
+| Fully correct line-item rows | 4/7 rows | Some rows had missing or partially incorrect quantity/tax values |
+| Main-field practical accuracy | ~80% | Strong for header information and totals |
+| Detailed line-item extraction accuracy | ~70% | Weaker for row-wise values such as quantity, discount, and tax columns |
+| Overall accuracy | ~75-80% | Based on the sample invoice comparison |
+
 ## Setup and Run
 
 Create a virtual environment, activate it, and install the dependencies:
